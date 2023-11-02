@@ -1,0 +1,104 @@
+# site.yml
+---
+- hosts: all    # Indicate hosts this applies to (host or group name)
+  roles:        # Enumerate roles to be applied
+    - bertvv.rh-base
+    - geerlingguy.pip
+    - geerlingguy.docker
+
+    
+  vars:
+    rhbase_firewall_allow_ports:
+      - "22/tcp"
+      - "8080/tcp"
+      - "80/tcp"
+      - "443/tcp"
+      - "21/tcp"
+      - "9100/tcp"
+      - "1433/tcp"
+      
+
+# - name: dbsrv01
+#   hosts: dbsrv01
+#   tasks:
+#     - name: Install Docker Python library
+#       command: dnf install -y python3-docker
+
+#     - name: Start SQL Server Docker container
+#       docker_container:
+#         name: mariadb_test  
+#         image: mariadb:latest
+#         state: started
+#         ports:
+#           - "3306:3306"
+#         pull: true
+#         volumes:
+#           - "db_data:/var/lib/mysql:rw"
+#           - "mariadb-socket:/var/run/mysqld:rw"
+#           - "/tmp:/tmp:rw"
+#         restart: true 
+#         env:
+#           MARIADB_ROOT_PASSWORD: Letmein!258  
+
+- hosts: buildsrv01
+  become: true
+  
+  vars:
+    jenkins_package_state: latest
+    jenkins_hostname: localhost
+    jenkins_plugins:
+      - ansicolor
+      - git
+      - github
+      - msbuild
+      - dotnet
+      - build-pipeline-plugin
+      - pipeline
+      - pipeline-build-step
+      - pipeline-github-lib
+      - pipeline-graph-analysis
+      - pipeline-input-step
+      - pipeline-milestone-step
+      - pipeline-model-api
+      - pipeline-model-definition
+      - pipeline-model-extensions
+      - pipeline-rest-api
+      - pipeline-stage-step
+      - pipeline-stage-tags-metadata
+      - pipeline-stage-view
+  pre_tasks:
+    - name: Import Jenkins GPG Key
+
+      command: rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+      become_user: root
+
+      ignore_errors: yes
+
+      changed_when: false
+  
+  roles:
+    - role: geerlingguy.java
+      become: true
+      when: "ansible_os_family == 'RedHat'"
+      java_packages:
+        - java-11-openjdk-devel
+        
+    - role: geerlingguy.jenkins
+      become: true
+
+
+    
+    
+
+    
+    
+
+# - name: appsrv01  
+#   hosts: appsrv01
+#   roles:
+#   tasks:
+#     - name: Install Docker Python library
+#       command: dnf install -y python3-docker
+
+# einde

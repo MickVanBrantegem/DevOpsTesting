@@ -1,0 +1,17 @@
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\bin\Debug\net6.0\Persistence.deps.json
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\bin\Debug\net6.0\Persistence.runtimeconfig.json
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\bin\Debug\net6.0\Persistence.dll
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\bin\Debug\net6.0\Persistence.pdb
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\bin\Debug\net6.0\Domain.dll
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\bin\Debug\net6.0\Domain.pdb
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\obj\Debug\net6.0\Persistence.csproj.CopyComplete
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\obj\Debug\net6.0\Persistence.dll
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\obj\Debug\net6.0\refint\Persistence.dll
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\obj\Debug\net6.0\Persistence.pdb
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\obj\Debug\net6.0\Persistence.genruntimeconfig.cache
+D:\Download\p3ops-demo-app-main\p3ops-demo-app-main\src\Persistence\obj\Debug\net6.0\ref\Persistence.dll

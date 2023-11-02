@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/8cnBIKuD00LLQLL5N1+dp8QmDRPsa2jnvJ7cC0UTASuUOCQXBmT5iD+ERywoEVdgsM5l4PaBeUzZKwORmSupg==",
+  "success": true,
+  "projectFilePath": "D:\\Download\\p3ops-demo-app-main\\p3ops-demo-app-main\\src\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jelle\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
+    "C:\\Users\\jelle\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

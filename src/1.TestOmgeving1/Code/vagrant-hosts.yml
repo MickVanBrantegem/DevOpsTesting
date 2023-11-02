@@ -1,0 +1,44 @@
+# vagrant_hosts.yml
+#
+# List of hosts to be created by Vagrant. For more information about the
+# possible settings, see the documentation at
+# <https://github.com/bertvv/ansible-skeleton>
+---
+# P3 - Geen 3 vm's maar juist maar 1 VM starten + Forwarded_ports openzetten voor localhost + Hardware toekennen
+# - name: dbsrv01
+#   box: bento/almalinux-9
+#   memory: 4096
+#   ip: 192.168.10.2
+#   netmask: 255.255.255.0
+#   cpus: 1
+#   forwarded_ports:
+#   - host: 8080
+#     guest: 8080
+#   - host: 80
+#     guest: 80
+#   - host: 1234
+#     guest: 1433
+
+
+- name: buildsrv01
+  box: bento/almalinux-9
+  memory: 2048
+  ip: 192.168.10.3
+  netmask: 255.255.255.0
+  cpus: 1
+  forwarded_ports:
+  - host: 1231
+    guest: 8080
+  - host: 1230
+    guest: 80
+
+# - name: appsrv01
+#   box: bento/almalinux-9
+#   memory: 4096
+#   ip: 192.168.10.4
+#   netmask: 255.255.255.0
+#   cpus: 1
+#   forwarded_ports:
+#   - host: 1235
+#     guest: 8080
+

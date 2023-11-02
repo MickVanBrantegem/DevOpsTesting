@@ -1,0 +1,29 @@
+@import '_content/Append.Blazor.Sidepanel/Append.Blazor.Sidepanel.bundle.scp.css';
+
+/* /Ordering/Components/ShoppingCart.razor.rz.scp.css */
+input[type=number][b-qvmm4sjxn8]{
+    max-width:2.5rem;
+    text-align:right;
+}
+
+td:not(:first-child)[b-qvmm4sjxn8], th:not(:first-child)[b-qvmm4sjxn8]{
+    text-align:right;
+}
+
+    td[b-qvmm4sjxn8] {
+        vertical-align: middle;
+    }
+
+td.price[b-qvmm4sjxn8]{
+    min-width:6rem;
+}
+/* /Products/Components/ProductListItem.razor.rz.scp.css */
+.card[b-hhj31rrsx2] {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-footer[b-hhj31rrsx2] {
+    margin-top: auto;
+}

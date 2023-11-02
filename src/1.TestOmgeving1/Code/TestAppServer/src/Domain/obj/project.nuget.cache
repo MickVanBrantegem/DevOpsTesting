@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "f3kTfcdM9SSLYpXzGvmqJwRdTx/rm0YocVa67cgfTKj9yY5wEsT9NAmAwv5EFK3UfhGJqvSe3AM98UF9PWy9ug==",
+  "success": true,
+  "projectFilePath": "D:\\Download\\p3ops-demo-app-main\\p3ops-demo-app-main\\src\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jelle\\.nuget\\packages\\ardalis.guardclauses\\4.1.1\\ardalis.guardclauses.4.1.1.nupkg.sha512",
+    "C:\\Users\\jelle\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

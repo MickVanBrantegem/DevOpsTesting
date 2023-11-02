@@ -1,0 +1,51 @@
+# group_vars/all.yml
+# Variables visible to all nodes
+---
+rhbase_repositories:
+  - epel-release
+rhbase_install_packages:
+  - bash-completion
+  - vim-enhanced
+  - bind-utils
+  - git
+  - nano
+  - tree
+  - wget
+  - python3-pip
+  - python3-jmespath
+  - curl
+
+
+rhbase_users:
+  - name: frank
+    comment: 'Administrator'
+    groups:
+      - users
+      - wheel
+      - devs
+      - mysql
+      - docker
+  - name: Mick
+    comment: 'Administrator'
+    groups:
+      - users
+      - wheel
+      - devs
+      - mysql
+      - docker
+  - name: jarno
+    comment: 'Administrator'
+    groups:
+      - users
+      - wheel
+      - devs
+      - mysql
+      - docker
+  - name: Jelle
+    comment: 'Administrator'
+    groups:
+      - users
+      - wheel
+      - devs
+      - mysql
+      - docker
